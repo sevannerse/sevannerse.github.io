@@ -8,6 +8,9 @@
 <script>
 export default {
   name: 'About',
+  layout ({ params }) {
+    return params.lang
+  },
   async asyncData ({ $content, params }) {
     const page = await $content('/' + params.lang, 'about').fetch()
 

@@ -8,8 +8,9 @@
 <script>
 export default {
   name: 'Index',
+  layout: 'en',
   async asyncData ({ $content, params }) {
-    const page = await $content('/en', 'index').fetch()
+    const page = await $content('/en', 'index').fetch();
 
     return {
       page
