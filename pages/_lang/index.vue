@@ -9,7 +9,7 @@
 export default {
   name: 'Index',
   async asyncData ({ $content, params }) {
-    const page = await $content('/en', 'index').fetch()
+    const page = await $content('/' + (params.lang || 'en'), 'index').fetch()
 
     return {
       page
