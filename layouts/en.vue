@@ -22,8 +22,8 @@
         <NuxtLink class="mr-8 hover:text-gray-900 underline" :to="{ name: 'lang-contact', params: { lang: 'en' } }">Contact</NuxtLink>
       </nav>
       <div class="flex flex-col">
-        <NuxtLink class="hover:text-gray-900 underline" :to="{ name: $route.name, params: { lang: 'hy' } }">hy</NuxtLink>
-        <NuxtLink class="hover:text-gray-900 underline" :to="{ name: $route.name, params: { lang: 'tr' } }">tr</NuxtLink>
+        <NuxtLink class="hover:text-gray-900 underline" :to="{ name: $route.name == 'index' ? 'lang' : $route.name, params: { lang: 'hy' } }">hy</NuxtLink>
+        <NuxtLink class="hover:text-gray-900 underline" :to="{ name: $route.name == 'index' ? 'lang' : $route.name, params: { lang: 'tr' } }">tr</NuxtLink>
       </div>
     </header>
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center max-w-3xl">
