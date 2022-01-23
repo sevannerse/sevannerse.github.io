@@ -28,7 +28,7 @@
         <NuxtLink class="mx-3 hover:text-gray-900 underline" :to="{ name: 'lang-contact', params: { lang: 'tr' } }">İletişim</NuxtLink>
       </nav>
     </header>
-    <div class="container mx-auto flex p-5 flex-col md:flex-row max-w-2xl">
+    <div class="container mx-auto flex p-5 flex-col max-w-2xl">
       <Nuxt />
     </div>
   </div>
