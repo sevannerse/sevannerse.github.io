@@ -1,5 +1,5 @@
 <template>
-  <div class="divide-y-2">
+  <div class="w-full min-h-screen divide-y-2">
     <header class="container mx-auto flex flex-col py-5 max-w-2xl text-gray-600 body-font">
       <div class="flex flex-row justify-center relative">
         <div class="flex absolute top-0 right-0">
